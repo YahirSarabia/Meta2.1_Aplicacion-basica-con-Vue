@@ -22,7 +22,7 @@
                 <th>Calificación</th>
                 <th>IMDB</th>
             </tr>
-            <tr v-for="movie in datos" :key="movie.id">
+            <tr v-for="movie in datos">
                 <td @click="cambiarTitulo(movie.movie)">{{ movie.movie }}</td>
                 <td>{{ movie.rating }}</td>
                 <td><a :href="movie.imdb_url" target="_blank"> {{movie.imdb_url}} </a></td>
