@@ -1,10 +1,10 @@
 <script setup>
-import TablaPelis from '../components/TablaPelicula.vue'
+import TablaPelicula from '../components/TablaPelicula.vue'
 </script>
 
 <template>
     <div class="pelicula">
-      <TablaPelis />
+      <TablaPelicula />
     </div>
   </template>
   

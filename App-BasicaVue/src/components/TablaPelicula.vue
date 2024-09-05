@@ -6,10 +6,10 @@
         datos.value = await response.json();
     });
 
-    const titulo = ref('Titulo: ')
+    const titulo = ref('Titulo: ');
     function cambiarTitulo( nombre ){
-        titulo.value = `Titulo: ${nombre}`
-    }
+        titulo.value = `Titulo: ${nombre}`;
+    };
 </script>
 
 <template>
